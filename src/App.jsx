@@ -13,7 +13,6 @@ function App() {
     <>
       <div className="bg-secondary">
         <Header />
-        <Form />
         <Main />
         <Footer />
       </div>
