@@ -11,10 +11,12 @@ import Form from "./components/form/Form.jsx";
 function App() {
   return (
     <>
-      <Header />
-      <Form />
-      <Main />
-      <Footer />
+      <div className="bg-secondary">
+        <Header />
+        <Form />
+        <Main />
+        <Footer />
+      </div>
     </>
   );
 }
