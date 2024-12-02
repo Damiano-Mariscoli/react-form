@@ -2,7 +2,7 @@ import { useState } from "react";
 import Card from "../card/card.jsx";
 
 function Form() {
-  const [newTitles, setTitles] = useState([]); // Inizializza come array
+  const [newTitles, setTitles] = useState([]);
   const [newTitle, setNewTitle] = useState("");
 
   function handleSubmit(event) {
