@@ -1,0 +1,12 @@
+.containerMd{
+    width: 1200px;
+    height: 100vh;
+    margin-bottom: 100px;
+}
+
+.dFlex{
+    display: flex;
+}
+.flexCenter{
+    justify-content: center;
+}
